@@ -28,7 +28,7 @@ body{
 .lista-personagen{
     position: relative;
     width: 330px;
-    height: 520px;
+    height: 530px;
 }
 .btn-seta{
     width: 70px;
@@ -104,6 +104,30 @@ body{
     overflow-y: auto;
     
 }
+
+.btn{
+    border-radius: 20%;
+    text-align: center;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    transition: backgrond-color 0.5s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+
+}
+.btns{
+    margin: 10px;
+}
+.widget{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: #8351fe;
+}
+
 
 .cartao.fundo-1{
     box-shadow: rgba(1, 1, 1, 0.56) 0px 22px 70px 4px;
